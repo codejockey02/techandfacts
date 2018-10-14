@@ -25,8 +25,8 @@ const schema = require('./imageSchema');
 app.get('/images',(req,res) => {
     async function getReq(){      
         const allReq = await schema.find()
-        .sort({created_at: 1})
-        .select({url:1, _id:0});
+        .sort({number: -1})
+        .select({url:1, _id:0, number:1});
         console.log(allReq);
 
         res.send(allReq); 
