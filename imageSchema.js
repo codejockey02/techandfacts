@@ -6,7 +6,8 @@ mongoose.connect('mongodb://techandfacts007:alpha123@ds131963.mlab.com:31963/tec
 
 const image = mongoose.Schema({
     url: String,
-    number: Number
+    number: Number,
+    text: String
 });
 
 mongoose.Promise = global.Promise;
