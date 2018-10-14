@@ -1,0 +1,41 @@
+{
+  "name": "project_scifi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "routes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node routes.js"
+  },
+  "dependencies": {
+    "basic-auth": "^1.0.4",
+    "bcryptjs": "^2.3.0",
+    "body-parser": "^1.15.2",
+    "cloudinary": "*",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "file-type": "*",
+    "formidable": "*",
+    "fs": "*",
+    "jsonminify": "^0.4.1",
+    "jsonwebtoken": "^7.1.9",
+    "mongoose": "^4.6.0",
+    "morgan": "^1.7.0",
+    "multer": "*",
+    "nodemailer": "^2.6.0",
+    "randomstring": "*",
+    "sendotp": "^1.2.9",
+    "twilio": "^3.22.0",
+    "util": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codejockey02/techandfacts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codejockey02/techandfacts/issues"
+  },
+  "homepage": "https://github.com/codejockey02/techandfacts#readme"
+}
