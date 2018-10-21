@@ -10,4 +10,4 @@ const image = mongoose.Schema({
 });
 
 mongoose.Promise = global.Promise;
-module.exports = mongoose.model('bollywood',image);
+module.exports = mongoose.model('image',image);
