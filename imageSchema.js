@@ -6,9 +6,8 @@ mongoose.connect('mongodb://techandfacts007:alpha123@ds131963.mlab.com:31963/tec
 
 const image = mongoose.Schema({
     url: String,
-    number: Number,
     text: String
 });
 
 mongoose.Promise = global.Promise;
-module.exports = mongoose.model('image',image);
+module.exports = mongoose.model('bollywood',image);
